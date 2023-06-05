@@ -1,4 +1,4 @@
-       <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,16 +13,16 @@
     </head>
     <body>
         <header id = "logo">
-          <img src="Imagens/Home.jpg" width="100%" height="300">  
+          <img src="Imagens/capa.png.jpg" width="100%" height="300">  
         </header>
         <nav class="navbar navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link active" href="home.html">Home <span class="sr-only">(Página atual)</span></a>
                 <a class="nav-item nav-link" href="#">Destaques</a>
                 <a class="nav-item nav-link" href="#">Preços</a>
                 <a class="nav-item nav-link disabled" href="#">Desativado</a>
@@ -36,11 +36,12 @@
              <li class = "li-menu"><a href="#"></a>Hoteis</li>
              <li class = "li-menu"><a href="#"></a>Passeios</li>
              <li class = "li-menu"><a href="#"></a>Contato</li>
-            </ul>
+            </ul><br/>
         </nav>
         <div>
-            <center><h1>João Pessoa Historia</h1></center> <!---Vai ficar a Historia de joão pessoa-->
+            <h1>João Pessoa Historia</h1> <!---Vai ficar a Historia de joão pessoa-->
             <br>
+          <div class="conteudo-historia">
             <p>A cidade de João Pessoa foi fundada pelos colonizadores portugueses, em 1585, com o nome de 
                 Nossa Senhora das Neves. Nascida de costas para o mar, ao contrário das demais capitais do 
                 país banhadas pelo oceano Atlântico, suas primeiras edificações foram às margens do Rio 
@@ -49,20 +50,28 @@
                 Cavalcanti de Albuquerque, assassinado em 1930, na cidade do Recife, quando era presidente 
                 do estado e concorria como candidato a vice-presidente da República, na chapa de Getúlio 
                 Vargas..</p><br><br>
-                <center><img  src="Imagens/Historia.jpg" height="100%" width="600"></center>
+          <div class="imagen-historia">
+                  <img src="imagens/capa.png.jpg" height="100%" width="480">
+            </div>
+          </div>
         </div>
-        <div>
-            <center><h1>Porque conhecer João Pessoa</h1></center>
+      </div>
+      <div>
+        <div class="box-2">
+            <h1>Porque conhecer João Pessoa</h1>
             <p> João Pessoa pode não ser uma grande cidade, mas é grandiosa em beleza, cultura, gastronomia 
                 e hospitalidade. Difícil é conhecer a capital da Paraíba e nunca mais voltar. A cidade é 
                 rodeada por zonas naturais, parques, jardins, reservas de Mata Atlântica e um extenso litoral
                 repleto de belíssimas praias protegidas por coqueiros. Considerada uma das cidades 
                 mais bonitas do Brasil, possui maravilhoso Centro Histórico, visitado durante todo o ano 
                 por milhares de turistas.</p><br><br> 
-                <center><img src="Imagens/jacare.png" ></center>
-        </div><hr/>
-        <h3>Passeios em João Pessoa:</h3>
+        </div>
+        <div id="box-imagen"><br/>
+          <img src="imagens/capa.png.jpg" height="100%" width="480"><br/><br/>
+        </div>
+      </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <center><h3>Passeios em João Pessoa</h3></center>
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -118,7 +127,7 @@
           </div>
         </div></br>
         <div>
-          <label>Nome: </label>
+          <label>Nome: </label><br/>
             <input type="text" name="Nome" required/></br>
             </br>
             <label>E-mail: </label>
