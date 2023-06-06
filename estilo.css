@@ -1,6 +1,7 @@
-
+   
 body {
-    margin-left: 50px; margin-right: 50px;
+    margin-left: 100px; margin-right: 100px;
+    background-color: black;
 }
 .ul-menu {
     list-style: none; 
@@ -27,36 +28,76 @@ footer {
 }
 #carouselExampleIndicators {
     width: 600px;
+    align-items: center;
 }
-.box-1 {  
-    float: right;
-    margin-left: 500px;
-
+.conteudo-1 {
+    display: table-cell;
+    float: left;  
+    background-image: url('Imagens/logo.png') ;
+    border: 2px;
+    border-radius: 20px;
+    
 }
-.box-2 {
-    margin-left: 500px;
-    float: left;
+    
+.conteudo-2 {
+    display: table-cell;
+    float: left; 
+    background-image: url('Imagens/logo.png') ;
+    border: 2px;
+    border-radius: 20px;
 }
     
 .imagen-historia {
     display: block;
     float: left;
-   
+    height: 400px;
+    width: 680px;
+    padding-right: 30px;
 }
 #carouselExampleIndicators {
-    margin-left: 300px;
-    background-color:aqua;
+    text-align: center;
+    margin: auto;
+    
 }
 .texto1 {
     margin: auto;
 }
-.conteudo-historia {
-    display: table-cell;
-    float: left;
 
+.formulario {
+    padding: 100px;
+    background-color: rgb(56, 146, 230);
+    margin-right: 300px;
+    margin-bottom: 200px;
+    margin-top: 400px;
 }
-
-
+.imagen-pq {
+    display: block;
+    float: left;
+    height: 400px;
+    width: 680px;
+    padding-right: 30px;
+}
+.card-1 {
+    background-color: #87CEEB;
+    float: left;
+    margin-left: 0px;
+    width: 18rem;
+    margin-top: 25px;
     
+    
+}
+.card-2 {
+    float: right;
+    background: #87CEEB;
+    width: rem;
+    
+   
+}
+.card-img-top {
+    height: 250px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 
